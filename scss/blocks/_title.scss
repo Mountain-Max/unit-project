@@ -1,0 +1,21 @@
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $accentColor;
+
+  // Mobile
+  @media (max-width: 899px) {
+    font-size: 14px;
+  }
+}
+
+.title--white {
+  color: #fff;
+}
+
+.title--gray {
+  color: #B2B2B2;
+}

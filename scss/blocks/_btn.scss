@@ -1,0 +1,26 @@
+.btn {
+  display: block;
+  height: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  border-radius: 30px;
+  background-color: #00c470;
+
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  line-height: 60px;
+  text-transform: uppercase;
+
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: #01ae63;
+  }
+
+  &:focus {
+    background-color: #019957;
+  }
+
+}
